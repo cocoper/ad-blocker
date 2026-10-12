@@ -1,0 +1,10 @@
+{
+  "accessibilityCapabilities": [
+    "retrieve",
+    "gesture",
+    "keyEventObserver"
+  ],
+  "accessibilityAbilityTypes": [
+    "all"
+  ]
+}

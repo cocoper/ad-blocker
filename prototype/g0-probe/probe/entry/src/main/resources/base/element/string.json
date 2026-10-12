@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "ClearStart G0 probe module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "ClearStart G0 probe host page"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "ClearStart Probe"
+    },
+    {
+      "name": "probe_ext_label",
+      "value": "ClearStart Probe"
+    },
+    {
+      "name": "probe_ext_desc",
+      "value": "G0 prototype accessibility extension (throwaway)"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/src/main",
+        "RESOURCES_PATH": [
+          "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/src/ohosTest",
+        "RESOURCES_PATH": [
+          "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/src/ohosTest/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/outputs/ohosTest",
+          "INTERMEDIA_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/loader_out/ohosTest",
+          "JS_LITE_ASSETS_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/loader_out_lite/ohosTest",
+          "RES_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/res/ohosTest",
+          "RES_PROFILE_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/res/ohosTest/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
+          "WORKER_LOADER": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/loader/ohosTest/loader.json",
+          "MANIFEST_JSON": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/manifest/ohosTest",
+          "OUTPUT_METADATA_JSON": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry/build/default/intermediates/source_map/ohosTest"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/build",
+    "BUNDLE_NAME": "com.cocoper.clearstart.fixture",
+    "VERSION_CODE": 1000000,
+    "VERSION_NAME": "1.0.0",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/build/outputs/default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture/entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "certpath": "/Users/yang/.ohos/config/default_fixture_vDPS6yo_gBnP4SpXFs0clTApRpOxE2HA3nD8eWWVx98=.cer",
+              "keyAlias": "debugKey",
+              "keyPassword": "0000001B398CCAF8CF4C5F1D5FCC9AA41F5F1C0151E4046D4FF4B8D10ADC8BC3EB4667F869830393430F6A",
+              "profile": "/Users/yang/.ohos/config/default_fixture_vDPS6yo_gBnP4SpXFs0clTApRpOxE2HA3nD8eWWVx98=.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "/Users/yang/.ohos/config/default_fixture_vDPS6yo_gBnP4SpXFs0clTApRpOxE2HA3nD8eWWVx98=.p12",
+              "storePassword": "0000001B3E0AD6801FDD7382BE1FD0A95B2E8E3AFBFB270D2500602152A48A4E8A60DE56F9BBAF2D4ADC7E"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "compatibleSdkVersion": "26.0.0",
+            "targetSdkVersion": "26.0.0",
+            "runtimeOS": "HarmonyOS"
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "/Volumes/ZT700-Data/Projects/dsh/ad-blocker/prototype/g0-probe/fixture"
+    ],
+    "BUILD_CACHE_DIR": ""
+  }
+}

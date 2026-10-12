@@ -1,0 +1,50 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/yang/.ohos/config/default_clearstart-signing_OS0qsApX3Bon4ot_Uf6oy2Lo-TdCMvgoyxs90KiwOew=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BA86D3C93EEF004D811357B0F6343F2AC967E7FDF5557EE23CF765CF669CF38D043AF9F9CC08875",
+          "profile": "/Users/yang/.ohos/config/default_clearstart-signing_OS0qsApX3Bon4ot_Uf6oy2Lo-TdCMvgoyxs90KiwOew=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/yang/.ohos/config/default_clearstart-signing_OS0qsApX3Bon4ot_Uf6oy2Lo-TdCMvgoyxs90KiwOew=.p12",
+          "storePassword": "0000001BB960AB32761699BB0FC0344AAE9033B9F2CA9B660068ADDCF4A0975F7F403568416AA76F8C34D6"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "26.0.0",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
